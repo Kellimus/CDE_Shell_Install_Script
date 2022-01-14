@@ -14,7 +14,7 @@ then
 	make
 	sudo make install
 	echo -e "\033[38;5;150mCopying the session.desktop file to Xsession for login under GDM,LIGHTDM, etc.\033[0m\n"
-	sudo cp -v $HOME/Documents/cdesktopenv-code/cde/contrib/desktopentry/cde.desktop /usr/share/xsessions/cde2.desktop
+	sudo cp -v $HOME/Documents/cdesktopenv-code/cde/contrib/desktopentry/cde.desktop /usr/share/xsessions/
 	echo -e "\033[38;5;180mCommon Desktop Environment (CDE) complete! Exiting script\033[0m\n"
 	exit
 else
